@@ -1,0 +1,23 @@
+# Ignore Jupyter Notebook temporary and checkpoint files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ignore other common Jupyter-related files
+profile_default/
+ipython_config.py
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook configuration files
+.jupyter/
+.venv/
+
+# Ignore virtual environment directories
+venv/
+ENV/
+env/
+.env
+
+
+# Ignore data folder
+data/
