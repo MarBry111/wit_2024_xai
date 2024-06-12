@@ -3,8 +3,13 @@ Repository with code presented during the workshop at the Perspektywy Women in T
 
 Link to [Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset) used in these notebooks.
 
-We present 4 notebooks:
+**We present 4 notebooks:**
 - [01_EDA](https://github.com/MarBry111/wit_2024_xai/blob/main/01_EDA.ipynb) - as name suggests simple Exploratory Data Analysis of selected dataset, looking at classes distributions
 - [02_train_simple_models](https://github.com/MarBry111/wit_2024_xai/blob/main/02_train_simple_models.ipynb) - with training of Logistic Regression, Decision Tree, and Random Forest Classifier - and explanations for each of them,
 - [03_LIME](https://github.com/MarBry111/wit_2024_xai/blob/main/03_LIME.ipynb) - moving to the black box models (XGBoost) and how to explain them, first solution to this problem using LIME (Local Interpretable Model-agnostic Explanations),
 - [04_SHAP](https://github.com/MarBry111/wit_2024_xai/blob/main/04_SHAP.ipynb) - and last but not least the notebook with SHAP values, how to compute them, having many useful visualizations which are helpful for model decision understanding.
+
+**Useful links:**
+- Great book about xAI - [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+- Amazing video series on xAI - [Explainable AI explained!](https://www.youtube.com/watch?v=OZJ1IgSgP9E&list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU)
+- Attention mechanism as a way of explaining models/understanding how they work (not covered in our notebooks) - [Explainable AI: Visualizing Attention in Transformers](https://www.comet.com/site/blog/explainable-ai-for-transformers/)
